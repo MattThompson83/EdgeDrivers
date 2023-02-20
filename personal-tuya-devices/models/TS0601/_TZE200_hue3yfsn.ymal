@@ -1,0 +1,15 @@
+deviceLabel: Thermostat
+profiles:
+  - normal_trv_v1
+datapoints:
+  # 
+  - id: 1
+    command: temperatureMeasurement
+    base:
+      group: 102
+      rate: 10
+  - id: 2
+    command: thermostatHeatingSetpoint
+    base:
+      group: 104
+      rate: 10
